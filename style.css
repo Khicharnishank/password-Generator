@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: green;
+}
+
+.heading{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 69px;
+    font-weight: 900;
+    margin: 5px;
+    padding: 3px;
+    /* color: rgba(34, 33, 33, 0.904); */
+}
+
+.content{
+    /* margin-left: 30%; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content span{
+    font-family: monospace;
+    font-size: larger;
+}
+
+
+label{
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+input{
+    color: greenyellow;
+    background-color:black;
+    font-family:cursive;
+    padding:5px 5px 5px 10px;
+    width:20rem;
+    border: solid;
+    border-color: green;
+    border-width: 2px;   
+    border-radius: 3%;
+
+}
+
+input:focus{
+    border: dotted;
+    border-color: green;
+    outline: none;
+}
+
+button{
+    background-color: black;
+    border: solid green 2px;
+    color: green;
+    width: 8em;
+    padding: 3px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    margin: 8%;
+    margin-left: 31%;
+}
+
+button:hover{
+    color: grey;
+    border-color: grey;
+}
+
+
+.display{
+    font-family:cursive;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.display span{
+    border: solid;
+    border-width: 2px;
+    border-radius: 3%;
+    padding: 5px;
+    width:25%;
+    visibility: hidden;
+
+}
+
+.display #generated:hover{
+    color: grey;
+}
+
+#message{
+    border: none;
+    margin-top:2%;
+    visibility: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-family: monospace;
+    margin: 4%;
+}
+
+a:hover{
+    color: grey;
+}
